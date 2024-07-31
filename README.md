@@ -44,9 +44,8 @@ Os demais basta seguir o passo a passo de instalação na documentação disponi
 - Na pasta em que foi clonado o repositório acesse o diretório correto: "cd TaskManagerAPI".
 - No arquivo "appsettings.json" altere a string de conexão DefaultConnection adicionando o seu usuario e senha do Postgres para fazer a conexão com o servidor e salve as alterações.
 - Altere também no arquivo "docker-compose.yml" o usuário e senha do Postgres e salve as alterações.
-- Agora basta rodar o comando `make infra-local` que os containers do docker com sua Api e banco de dados estará rodando
+- Com o Docker Desktop rodando em sua maquina basta rodar o comando `make infra-local` que os containers do docker com sua Api e banco de dados estarão rodando
 - Clique para acessar o [Swagger](http://localhost:8081/swagger/index.html) e utilizar a Api.
 
 ## 🚩 The End
 
-🌟Antes de sair desse repositório não esqueça de deixar sua "star" ajuda muito e não custa nada!! 🌟
